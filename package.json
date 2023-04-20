@@ -2,8 +2,9 @@
   "name": "lifex-google-drive-picker",
   "version": "1.2.1",
   "description": "React google drive picker api",
-  "types": "./src",
-  "main": "./src/index.tsx",
+  "types": "src",
+  "files" : ["src/" , "package.json", "README.md"]
+  "main": "src/index.tsx",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
