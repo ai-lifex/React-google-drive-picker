@@ -139,6 +139,7 @@ export default function useDrivePicker(): [
       .setDeveloperKey(developerKey)
       .setLocale(locale)
       .setCallback(callbackFunction)
+      .setMaxItems(10)
 
     if (setOrigin) {
       picker.setOrigin(setOrigin)
